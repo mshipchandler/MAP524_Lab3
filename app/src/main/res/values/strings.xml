@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Android Guide</string>
+
+    <string name="instructions">Please click on the buttons, or see "Help" for more details.</string>
+
+    <string name="button_terminology">Terminology</string>
+    <string name="button_websites">Websites</string>
+
+    <string name="action_help">Help</string>
+    <string name="action_about">About</string>
+
+    <string name="activity_help">The Terminology button will show various terminologies&#x0a;The Websites button will show various websites</string>
+    <string name="about_title">About</string>
+    <string name="about_message">Ma\&apos;ad Shipchandler - CPAC</string>
+    <string name="ok">Okay</string>
+</resources>
