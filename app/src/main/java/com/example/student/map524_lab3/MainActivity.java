@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -36,7 +37,6 @@ public class MainActivity extends AppCompatActivity {
             // Code inspired from http://stackoverflow.com/questions/5152564/calling-one-activity-from-another-in-android
             Intent intent = new Intent(this, HelpActivity.class);
             startActivity(intent);
-            finish();
         }
 
         else if(id == R.id.action_about)
@@ -63,5 +63,12 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void terminologyClicked(View view)
+    {
+        // Code inspired from http://stackoverflow.com/questions/5152564/calling-one-activity-from-another-in-android
+        Intent intent = new Intent(this, TerminologyActivity.class);
+        startActivity(intent);
     }
 }

@@ -9,8 +9,41 @@
     <string name="action_help">Help</string>
     <string name="action_about">About</string>
 
-    <string name="activity_help">The Terminology button will show various terminologies&#x0a;The Websites button will show various websites</string>
+    <string name="activity_help">The Terminology button will take you to the command dictionary&#x0a;The Websites button will show various websites</string>
     <string name="about_title">About</string>
     <string name="about_message">Ma\&apos;ad Shipchandler - CPAC</string>
     <string name="ok">Okay</string>
+
+    <string name="activity_terminology"> Please start typing to display a list of suggestions. Click on any command to see what it does. </string>
+    <string name="autoComplete_hint">Enter command</string>
+
+    <string-array name="commands_array">
+        <item>adb</item>
+        <item>adb install</item>
+        <item>adb shell</item>
+        <item>android</item>
+        <item>emulator</item>
+        <item>gradle build</item>
+        <item>java</item>
+        <item>javac</item>
+        <item>monitor</item>
+        <item>pm</item>
+        <item>screenshot2</item>
+    </string-array>
+
+    <string-array name="def_array">
+        <item>Android Debug Bridge</item>
+        <item>Install APK onto an AVD or connected Device</item>
+        <item>Open a UNIX based shell to connect to an AVD or connected device</item>
+        <item>Manage AVDs, update the SDK, create and update Android projects</item>
+        <item>Start running an AVD</item>
+        <item>Builds an app by running the build.gradle file using the gradle build tool</item>
+        <item>JAVA runtime command</item>
+        <item>JAVA compiler</item>
+        <item>Graphically read and filter logs, monitor memory, CPU usage, download and upload files and manage a running AVD</item>
+        <item>Package manager (Used in the adb shell) to manage packages on an AVD or connected device</item>
+        <item>Take a screenshot of the screen</item>
+    </string-array>
+
+
 </resources>
